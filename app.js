@@ -7,8 +7,8 @@ if (seasons == "Autumn") {
 } else {
     alert("Amazing !!") 
 }
-document.write('<h2>' + "Welocome to my website" +'</h2>');
 
+document.write('<h2>' + "Welocome to my website" +'</h2>');
 
 
 var order = prompt('what season do you love Autumn or summer?')
@@ -16,4 +16,22 @@ while(order !=='Autumn' && order!=='summer'){
     order =prompt('please write only Autumn or summer ')
 }
 
+
+var picture = '';
+
+if(weather === 'Autumn'){
+    picture ='<img src="https://thumbs.dreamstime.com/z/autumn-background-colorful-leaves-word-autumn-pattern-59940159.jpg"/>';
+}else {
+    picture= '<img src="https://st2.depositphotos.com/1023102/7042/i/950/depositphotos_70427703-stock-photo-word-summer-over-flowers-in.jpg"/>';
+}
+
+var result = '';
+
+
+var numberOfPictures=prompt('How mnany picture do you want to show?');
+
+for(var i = 0 ; i<numberOfPictures ; i++){
+    console.log(i);
+    result =result+ picture;
+}
 
