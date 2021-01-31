@@ -1,0 +1,19 @@
+
+header{
+    background-color: rgb(218, 158, 181); }
+header h1{ 
+    text-align: center; }
+header nav ul{
+    list-style: none;}
+header nav ul li{
+    display: inline-block;
+    padding: 20px;}
+header nav ul li a{
+     text-decoration: none;}
+
+img{
+    width: 20%;
+    margin: 30px}
+
+#firstParagraph{
+    color: rgb(100, 15, 52);}
